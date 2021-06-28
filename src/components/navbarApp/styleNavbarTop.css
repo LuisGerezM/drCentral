@@ -1,0 +1,51 @@
+.tittle-nav {
+  color: hsl(0, 0%, 100%);
+}
+
+.tittle-nav:hover {
+  color: hsl(266, 7%, 37%);
+}
+
+.logoNav {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30%;
+}
+
+.logoNav:hover {
+  background-color: hsl(266, 7%, 37%);
+  filter: grayscale(30%);
+}
+
+.welcome {
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.welcome:hover {
+  color: hsl(266, 7%, 37%);
+}
+
+#basic-nav-dropdown {
+  color: white;
+}
+
+.dropdown-menu.show {
+  background-color: hsl(266, 7%, 37%);
+}
+
+.nav-item.dropdown {
+  margin-top: 6px;
+}
+
+.dropdown-toggle::after {
+  opacity: 0;
+}
+
+.cursor {
+  cursor: no-drop;
+}
+
+.decoration-navbar-top {
+  border-style: ridge;
+}

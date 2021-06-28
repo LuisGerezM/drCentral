@@ -1,3 +1,7 @@
+.container {
+  width: 97.5% !important;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +38,24 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Despues ver si se sacan estos medias */
+@media screen and (min-width: 1200px) {
+  .container-app {
+    max-width: 1332px !important;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+  .container-app {
+    max-width: 1200px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+  .container-app {
+    max-width: 800px !important;
   }
 }
